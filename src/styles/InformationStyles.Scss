@@ -1,0 +1,43 @@
+@import '../../assets/colors.scss';
+
+.info-vehicles {
+  margin-top: 32px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0125em;
+  color: $color_txt_grey;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 14.5px 0;
+  box-shadow: $row_box_shadow;
+}
+
+.key {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0125em;
+  color: $color_txt_grey_light;
+}
+
+.value {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.0125em;
+  color: $color_txt_grey;
+}
