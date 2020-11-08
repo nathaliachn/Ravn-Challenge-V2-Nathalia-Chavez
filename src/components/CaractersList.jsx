@@ -1,9 +1,9 @@
 import React from "react";
 import Person from "./Person";
 
-const PeopleList = ({ people, onPersonClick }) => (
+const CaractersList = ({ caracters, onPersonClick }) => (
   <>
-    {people.map((person) => (
+    {caracters.map((person) => (
       <Person
         person={person.node}
         key={person.node.id}
@@ -12,4 +12,4 @@ const PeopleList = ({ people, onPersonClick }) => (
     ))}
   </>
 );
-export default PeopleList;
+export default CaractersList;
