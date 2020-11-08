@@ -1,7 +1,7 @@
 import React from "react";
 import Person from "./Person";
 
-const CaractersList = ({ caracters, onPersonClick }) => (
+const CharactersList = ({ caracters, onPersonClick }) => (
   <>
     {caracters.map((person) => (
       <Person
@@ -12,4 +12,4 @@ const CaractersList = ({ caracters, onPersonClick }) => (
     ))}
   </>
 );
-export default CaractersList;
+export default CharactersList;

@@ -1,0 +1,14 @@
+@import '../assets/colors.scss';
+
+.error-message {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.0125em;
+  color: $error_txt_red;
+  padding: 16px 0;
+}
