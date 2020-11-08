@@ -1,0 +1,49 @@
+@import '../assets/colors.scss';
+
+p {
+  margin: 0;
+}
+
+i {
+  border: solid $black_txt;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.person-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: $row_box_shadow;
+  padding: 16px;
+}
+
+.person-item:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.person-name {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0125em;
+  color: $color_txt_grey;
+}
+
+.person-info {
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0125em;
+  color: $color_txt_grey_light;
+}
