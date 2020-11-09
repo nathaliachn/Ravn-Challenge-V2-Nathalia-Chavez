@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './components/Navbar';
+import MainContent from './components/MainContent';
+import './App.scss';
+import './assets/fonts/SFProDisplay.ttf';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hola terricola</h1>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <Navbar />
+    <MainContent />
+  </div>
+);
 
 export default App;

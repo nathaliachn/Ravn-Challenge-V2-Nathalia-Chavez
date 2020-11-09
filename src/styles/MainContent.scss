@@ -1,0 +1,17 @@
+@import '../assets/colors.scss';
+
+.content {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 52px);
+}
+
+.content-sidebar {
+  flex-grow: 1;
+  box-shadow: $content_box_shadow;
+  overflow-y: scroll;
+}
+
+.content-information {
+  flex-grow: 4;
+}

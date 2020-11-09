@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { gql } from "apollo-boost";
 import { useQuery } from "@apollo/react-hooks";
-import CaractersList from "..components/CaractersList";
+import CharactersList from "./CharactersList";
 import Loading from "./Loading";
 import Error from "./Error";
 
@@ -30,7 +30,7 @@ const QUERY_PEOPLE = gql`
   }
 `;
 
-const Sidebar = ({ onPersonClick }) => {
+const SideBar = ({ onPersonClick }) => {
   const { loading, error, data, fetchMore } = useQuery(QUERY_PEOPLE);
 
   const [isLoadingMore, setIsLoadingMore] = useState(false);
@@ -68,7 +68,7 @@ const Sidebar = ({ onPersonClick }) => {
     if (data?.allPeople) {
       setIsLoadingMore(true);
       setTimeout(() => onLoad(data.allPeople.pageInfo.endCursor), 1500);
-    }
+    } // eslint-disable-next-line
   }, [data?.allPeople?.pageInfo.endCursor]);
 
   if (error) return <Error />;
@@ -76,7 +76,7 @@ const Sidebar = ({ onPersonClick }) => {
   return (
     <div>
       {data?.allPeople && (
-        <CaractersList
+        <CharactersList
           people={data.allPeople.edges}
           onPersonClick={onPersonClick}
         />
@@ -86,4 +86,4 @@ const Sidebar = ({ onPersonClick }) => {
   );
 };
 
-export default Sidebar;
+export default SideBar;
