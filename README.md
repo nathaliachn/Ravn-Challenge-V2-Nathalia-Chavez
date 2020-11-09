@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+<h3  align="center">Aloha! This is my Ravn/Star Wars challenge - I'm Nathalia Chávez Nieme</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img width="460" height="400" src="http://imgfz.com/i/QSqTlLM.jpeg">
+</p>
 
-## Available Scripts
+<br  />
 
-In the project directory, you can run:
+<p  align="center">
 
-### `npm start`
+</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p  align="center">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The challenge was about of building an app with GraphQL, Apollo and other optional technologies. The app is a Star Wars Character Registry powered by https://swapi-graphql.netlify.app/
 
-### `npm test`
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</p>
 
-### `npm run build`
+## Index
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [What are we gonna do?](#what-are-we-gonna-do?)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Built With](#built-with)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Before you start](#before-you-start)
 
-### `npm run eject`
+- [Installation and set up](#installation-and-set-up)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Running instructions](#running-instructions)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## What are we gonna do?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+We are going to build a awsome Star Wars app, in which you can see all the characters in the saga and their characteristics!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Built With
 
-## Learn More
+**I have chosen to code with:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- JavaScript as main technology
+- [ReactJS](https://reactjs.org/) as my framework
+- Sass for the styling
+- [Apollo Client](https://www.apollographql.com/)
+- [GraphQL](https://graphql.org/) for my personal challenge because is my first time using this awsome technology
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Before you start:
 
-### Code Splitting
+1. You must have npm installed and the npm packages that are listed on the installation section.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Installation and set up
 
-### Analyzing the Bundle Size
+1. Clone the repository or download in a zip version.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```sh
 
-### Making a Progressive Web App
+git clone https://github.com/nathaliachn/Ravn-Challenge-V2-Nathalia-Chavez.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
 
-### Advanced Configuration
+2. Install NPM packages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
 
-### Deployment
+npm install react @apollo/react-hooks apollo-boost graphql graphql-tag normalize.css react-apollo
+and node-sass
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
 
-### `npm run build` fails to minify
+## Running instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.- When we open the web app and everything goes fine with the API, we will see an screen like this in out desktop computer or laptop.
+
+<br/>
+
+<br/>
+
+![Loading](http://imgfz.com/i/0Dtch8a.png)
+
+<br/>
+
+<br/>
+
+<br/>
+
+2.- We can click in the character that we want to display information
+
+<br/>
+
+<br/>
+
+![failed](http://imgfz.com/i/68WOBdi.png)
+<br/>
+
+<br/>
+
+<br/>
+
+3.- This little program is powered by an awesome third party; therefore, if we see a messa like this one is because of the API was deprecated or it's in maintenance.
+
+<br/>
+
+<br/>
+
+![characters](http://imgfz.com/i/oyagMfN.png)
+![charactersinfo](http://imgfz.com/i/cTWFpVq.png)
+<br/>
+
+<br/>
+
+<br/>
+
+<h3  align="center">MAY THE FORCE BE WITH YOU. </h3>
