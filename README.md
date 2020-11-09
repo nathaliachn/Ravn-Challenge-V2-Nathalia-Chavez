@@ -1,8 +1,14 @@
 <h3  align="center">Aloha! This is my Ravn/Star Wars challenge - I'm Nathalia Chávez Nieme</h3>
 
-![Picture](http://imgfz.com/i/QSqTlLM.jpeg)
+
+<p align="center">
+  <img width="460" height="400" src="http://imgfz.com/i/QSqTlLM.jpeg">
+</p>
+
+
 
 <br  />
+
 
 <p  align="center">
 
